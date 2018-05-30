@@ -1,6 +1,10 @@
 This is the code for a simple API like thing , where you will enter url of an image and will receive a JSON file of number of faces in the image.
 
 
+## Some things to consider :
+	Most of the folders were made by default "WEBSTORM".
+	Go to dependencies.md for required libraries.
+
 
 
 
