@@ -5,6 +5,4 @@
 	2) Copy its content to ..sky/moon
 		Make sure moon folder has 'moon.py' file in it
 
-	3) Open the terminal and write
-		node sky.js
 
