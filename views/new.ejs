@@ -1,16 +1,37 @@
 <% include partials/header %>
+
+</div>
 <div class="container">
     <div class="row">
-        <h1 style="text-align: center">Enter The URL</h1>
         <div style="width: 30%; margin: 25px auto;">
-            <form action="http://localhost:3000/face" method="POST">
+            <form action="http://localhost:3000/face" class="needs-validation" method="POST" novalidate>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="url" placeholder="image url">
+                    <input class="form-control" type="text" name="url" id="validationCustom01" placeholder="image url" autocomplete="off" required>
+                </div>
+                <div class="invalid-feedback">
+                    Please provide a valid URL.
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                    <button class="btn btn-lg btn-outline-dark btn-block">Submit!</button>
                 </div>
             </form>
+            <script>
+                (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                        var forms = document.getElementsByClassName('needs-validation');
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
             <a href="/">Go Back</a>
         </div>
     </div>

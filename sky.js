@@ -10,9 +10,12 @@ app.get("/face", function(req, res){
     res.render("new");
 });
 
+app.get("/about", function(req,res) {
+    res.render("about");
+});
 
 app.get("*", function(req,res) {
-    res.redirect("/");
+    res.redirect("landing");
 });
 
 app.listen(8080, function() {
