@@ -19,6 +19,11 @@ This is the code for a simple API like thing , where you will enter url of an im
 	3) Open the terminal and write
 		node sky.js
 
+	4) Now run /moon/server.py
+		Make sure both are running.
+
+	5) Go to the address given by sky.js and use the app
+
 
 ## STATE :
 	Very Buggy
