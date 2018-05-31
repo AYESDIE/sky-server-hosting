@@ -4,7 +4,8 @@ This is the code for a simple API like thing , where you will enter url of an im
 ## Some things to consider :
 	Most of the folders were made by default "WEBSTORM".
 	Go to dependencies.md for required libraries.
-
+	http://localhost:8080/	- Sky
+	http://localhost:3000/	- Moon
 
 
 
@@ -23,6 +24,8 @@ This is the code for a simple API like thing , where you will enter url of an im
 		Make sure both are running.
 
 	5) Go to the address given by sky.js and use the app
+	
+	6) In the end, you will get the number of faces at http://localhost:3000/faces (This is operated by server.py) 
 
 
 ## STATE :
