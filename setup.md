@@ -1,7 +1,7 @@
 Setup
 
 ##	Follow these steps to make sure SKY is Running:
-	1) Close this repository.
+	1) Clone this repository.
 	2) Download NodeJS and install it.
 	3) Open the terminal inside the cloned folder("../sky"), we need libraries, so type: 
 				npm install express
