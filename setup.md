@@ -20,7 +20,7 @@ Setup
 	2) Install the latest version of Python. 
 				Python 3.x, not Python 2.x
 	3) Install pip for python 3.
-	4) Now using pip, install the libraries. (Use terminal inside "../sky/moon"). So open the terminal and type:
+	4) Now using pip, install the libraries. So open the terminal and type:
 				pip install bottle
 				pip install opencv-python
 				pip install scikit-image
