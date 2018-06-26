@@ -5,16 +5,17 @@ Setup
 	2) Download NodeJS and install it.
 	3) Open the terminal inside the cloned folder("../sky"), we need libraries, so type: 
 				npm install express
+				npm install ejs
 	4) Now in terminal, type 
 				node sky.js
 	5) If everything works fine, You should get a message that looks like 
 				SERVER IS UP at http://localhost:8080/
-	6) Now we need 'MOON' to get this working
+	6) Now we need 'MOON' to get this working.
 	7) Don't close ter terminal.
 
 
 ##	Follow these steps to make sure MOON is Running:
-	1) Clone the repository. Place its content inside ("../sky/moon").
+	1) Clone the repository.
 				https://github.com/AYESDIE/moon-emotion-recognition
 	2) Install the latest version of Python. 
 				Python 3.x, not Python 2.x
