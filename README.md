@@ -1,2 +1,2 @@
 # sky-server-hosting
-A web framework to host Moon ( https://github.com/AYESDIE/moon-emotion-recognition ).
+Everything is moved here (https://github.com/AYESDIE/moon-emotion-recognition-api).
